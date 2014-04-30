@@ -1,0 +1,27 @@
+{
+  "name": "entromacyDev",
+  "version": "0.0.0",
+  "description": "Entromacy development environment",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/entropi/entromacy.git"
+  },
+  "author": {
+    "name": "Chad Fawcett",
+    "email": "chad@useless.net",
+    "url": "https://github.com/entropi"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/entropi/entromacy/issues"
+  },
+  "homepage": "https://github.com/entropi/entromacy",
+  "devDependencies": {
+    "matchdep": "^0.3.0",
+    "grunt": "^0.4.4",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-node-webkit-builder": "^0.1.21",
+    "grunt-shell": "^0.7.0"
+  }
+}

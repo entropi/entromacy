@@ -1,0 +1,32 @@
+{
+  "name": "entromacy",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "author": {
+    "name": "Chad Fawcett",
+    "email": "chad@useless.net",
+    "url": "https://github.com/entropi"
+  },
+  "license": "Apache-2.0",
+  "description": "entromacy development environment",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/entropi/entromacy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/entropi/entromacy/issues"
+  },
+  "homepage": "https://github.com/entropi/entromacy",
+  "main": "index.html",
+  "single-instance": true,
+  "window": {
+    "title": "entromacy",
+    "width": 650,
+    "height": 650,
+    "min_width": 650,
+    "min_height": 650,
+    "toolbar": false
+  },
+  "chromium-args": "--child-clean-exit"
+}
